@@ -1,0 +1,11 @@
+.card-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  max-width: 100%;
+  @media (max-width: 860px) {
+    flex-flow: column wrap;
+    justify-content: stretch;
+    padding: 10px;
+  }
+}
